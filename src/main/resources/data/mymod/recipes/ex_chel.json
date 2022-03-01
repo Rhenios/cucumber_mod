@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "kappa_mod:cucumberalloyingot"
+    },
+    "1": {
+      "item": "kappa_mod:cucumberalloyingot"
+    },
+    "2": {
+      "item": "kappa_mod:cucumberalloyingot"
+    },
+    "3": {
+      "item": "kappa_mod:cucumberalloyingot"
+    },
+    "5": {
+      "item": "kappa_mod:cucumberalloyingot"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:excucumberarmor_helmet",
+    "count": 1
+  }
+}

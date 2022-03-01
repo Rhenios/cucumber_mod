@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kappa_mod:item/cucumber_alloy"
+  }
+}

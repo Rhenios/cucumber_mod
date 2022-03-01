@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "kappa_mod:cucumberalloyingot"
+    },
+    "3": {
+      "item": "kappa_mod:cucumberalloyingot"
+    },
+    "4": {
+      "item": "minecraft:feather"
+    },
+    "5": {
+      "item": "kappa_mod:cucumberalloyingot"
+    },
+    "7": {
+      "item": "kappa_mod:cucumberalloyingot"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:cucumber_fly_ring",
+    "count": 1
+  }
+}

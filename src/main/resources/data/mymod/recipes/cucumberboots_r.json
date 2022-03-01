@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "kappa_mod:cucumberingot"
+    },
+    "2": {
+      "item": "kappa_mod:cucumberingot"
+    },
+    "3": {
+      "item": "kappa_mod:cucumberingot"
+    },
+    "5": {
+      "item": "kappa_mod:cucumberingot"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:cucumberarmer_boots",
+    "count": 1
+  }
+}

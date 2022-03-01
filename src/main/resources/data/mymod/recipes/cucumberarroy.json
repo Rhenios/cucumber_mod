@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kappa_mod:hardcucumberingot"
+    },
+    "1": {
+      "item": "kappa_mod:hardcucumberingot"
+    },
+    "2": {
+      "item": "kappa_mod:hardcucumberingot"
+    },
+    "3": {
+      "item": "kappa_mod:cucumber"
+    },
+    "4": {
+      "item": "kappa_mod:cucumber"
+    },
+    "5": {
+      "item": "kappa_mod:cucumber"
+    },
+    "6": {
+      "item": "kappa_mod:cucumberingot"
+    },
+    "7": {
+      "item": "kappa_mod:cucumberingot"
+    },
+    "8": {
+      "item": "kappa_mod:cucumberingot"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:cucumberalloy",
+    "count": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "kappa_mod:hardcucumberingot"
+    },
+    "1": {
+      "item": "kappa_mod:hardcucumberingot"
+    },
+    "2": {
+      "item": "kappa_mod:hardcucumberingot"
+    },
+    "3": {
+      "item": "kappa_mod:hardcucumberingot"
+    },
+    "5": {
+      "item": "kappa_mod:hardcucumberingot"
+    },
+    "6": {
+      "item": "kappa_mod:hardcucumberingot"
+    },
+    "8": {
+      "item": "kappa_mod:hardcucumberingot"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:hardcucumberarmor_leggings",
+    "count": 1
+  }
+}

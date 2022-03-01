@@ -1,0 +1,48 @@
+{
+  "itemGroup.tutorial.cucumber": "きゅうりMOD",
+
+  "block.kappa_mod.cucumberblock": "きゅうりブロック",
+  "block.kappa_mod.cucumberore": "きゅうり鉱石",
+  "block.kappa_mod.hardcucumberore": "硬きゅうり鉱石",
+
+
+  "item.kappa_mod.cucumberraw": "きゅうりの原石",
+  "item.kappa_mod.cucumberingot": "きゅうりインゴット",
+  "item.kappa_mod.hardcucumberraw": "硬きゅうりの原石",
+  "item.kappa_mod.hardcucumberingot": "硬きゅうりインゴット",
+  "item.kappa_mod.cucumberalloy": "きゅうり合金の原石",
+  "item.kappa_mod.cucumberalloyingot": "きゅうり合金",
+
+  "item.kappa_mod.cucumber": "きゅうり",
+  "item.kappa_mod.mayo": "マヨネーズ",
+  "item.kappa_mod.lard": "ラード",
+  "item.kappa_mod.potatosalada": "ポテトサラダ",
+
+  "item.kappa_mod.cucumberpickaxe": "きゅうりのツルハシ",
+  "item.kappa_mod.cucumberaxe": "きゅうりの斧",
+  "item.kappa_mod.cucumbershovel": "きゅうりのショベル",
+  "item.kappa_mod.hardcucumberpickaxe": "硬きゅうりのツルハシ",
+  "item.kappa_mod.hardcucumberaxe": "硬きゅうりの斧",
+  "item.kappa_mod.hardcucumbershovel": "硬きゅうりのショベル",
+
+  "item.kappa_mod.cucumber_fly_ring": "飛行のきゅうりリング",
+
+
+
+  "item.kappa_mod.cucumberarmer_helmet": "きゅうりのヘルメット",
+  "item.kappa_mod.cucumberarmer_chestplate": "きゅうりのチェストプレート",
+  "item.kappa_mod.cucumberarmer_leggings": "きゅうりのレギンス",
+  "item.kappa_mod.cucumberarmer_boots": "きゅうりのブーツ",
+  "item.kappa_mod.excucumberarmor_helmet": "特別なきゅうりのヘルメット",
+  "item.kappa_mod.excucumberarmor_chestplate": "特別なきゅうりのチェストプレート",
+  "item.kappa_mod.excucumberarmor_leggings": "特別なきゅうりのレギンス",
+  "item.kappa_mod.excucumberarmor_boots": "特別なきゅうりのブーツ",
+  "item.kappa_mod.hardcucumberarmor_helmet": "硬きゅうり ヘルメット",
+  "item.kappa_mod.hardcucumberarmor_chestplate": "硬きゅうり チェストプレート",
+  "item.kappa_mod.hardcucumberarmor_leggings": "硬きゅうり レギンス",
+  "item.kappa_mod.hardcucumberarmor_boots": "硬きゅうり ブーツ"
+
+
+
+
+}

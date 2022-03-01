@@ -1,0 +1,30 @@
+{
+  "group": "cucumber_tool",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "kappa_mod:cucumberingot"
+    },
+    "1": {
+      "item": "kappa_mod:cucumberingot"
+    },
+    "2": {
+      "item": "kappa_mod:cucumberingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:cucumberpickaxe",
+    "count": 1
+  }
+}
