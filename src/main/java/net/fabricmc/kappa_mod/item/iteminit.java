@@ -1,7 +1,7 @@
 package net.fabricmc.kappa_mod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.kappa_mod.ExampleMod;
+import net.fabricmc.kappa_mod.main;
 import net.fabricmc.kappa_mod.config.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
@@ -10,7 +10,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import static net.fabricmc.kappa_mod.ExampleMod.ITEM_GROUP;
+import static net.fabricmc.kappa_mod.main.ITEM_GROUP;
 
 public class iteminit {
 
@@ -60,11 +60,11 @@ public class iteminit {
     public static final Item cucumbershovel = registerItem("cucumbershovel", new shovelBase(new cucumbertoolmaterial()));
 
     private static Item registerItem(String name ,Item item ){
-        return Registry.register(Registry.ITEM,new Identifier(ExampleMod.MODID, name), item);
+        return Registry.register(Registry.ITEM,new Identifier(main.MODID, name), item);
     }
 
     public static void registerModItems(){
-        System.out.println("Registering Mod Items for " + ExampleMod.MODID);
+        System.out.println("Registering Mod Items for " + main.MODID);
 
     }
 

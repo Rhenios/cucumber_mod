@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.kappa_mod.ExampleMod"
+      "net.fabricmc.kappa_mod.main"
     ]
   },
   "mixins": [

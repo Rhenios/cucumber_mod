@@ -1,11 +1,11 @@
 {
   "type": "minecraft:smelting",
-  "experience": 5,
-  "cookingtime": 200,
+
   "ingredient": {
     "item": "kappa_mod:cucumberingot"
   },
-  "result": {
-    "item": "minecraft:iron_ingot"
-  }
+  "result":"minecraft:iron_ingot",
+    "experience": 5,
+    "cookingtime": 200
+
 }

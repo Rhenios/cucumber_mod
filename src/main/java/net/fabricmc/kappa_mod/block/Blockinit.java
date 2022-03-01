@@ -4,7 +4,7 @@ import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.kappa_mod.ExampleMod;
+import net.fabricmc.kappa_mod.main;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -20,7 +20,7 @@ import net.minecraft.world.gen.decorator.CountPlacementModifier;
 import net.minecraft.world.gen.decorator.HeightRangePlacementModifier;
 import net.minecraft.world.gen.decorator.SquarePlacementModifier;
 import net.minecraft.world.gen.feature.*;
-import static net.fabricmc.kappa_mod.ExampleMod.ITEM_GROUP;
+import static net.fabricmc.kappa_mod.main.ITEM_GROUP;
 
 public class Blockinit {
 
@@ -31,28 +31,25 @@ public class Blockinit {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),ITEM_GROUP,8,15,32);
 
     //customblock
-    public static final Block cucumberblock = Registry.register(Registry.BLOCK,new Identifier(ExampleMod.MODID, "cucumberblock"),new cucumberPlantBlock());
-    public static final BlockItem cucumberblockitem = Registry.register(Registry.ITEM, new Identifier(ExampleMod.MODID, "cucumberblock"),
+    public static final Block cucumberblock = Registry.register(Registry.BLOCK,new Identifier(main.MODID, "cucumberblock"),new cucumberPlantBlock());
+    public static final BlockItem cucumberblockitem = Registry.register(Registry.ITEM, new Identifier(main.MODID, "cucumberblock"),
             new BlockItem(cucumberblock, new Item.Settings().group(ITEM_GROUP)));
 
 
     public static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name,block,group);
-        return Registry.register(Registry.BLOCK,new Identifier(ExampleMod.MODID, name),block);
+        return Registry.register(Registry.BLOCK,new Identifier(main.MODID, name),block);
     }
 
     public static Item registerBlockItem(String name, Block block, ItemGroup group){
-        return Registry.register(Registry.ITEM,new Identifier(ExampleMod.MODID,name),new BlockItem(block,new FabricItemSettings().group(group)));
+        return Registry.register(Registry.ITEM,new Identifier(main.MODID,name),new BlockItem(block,new FabricItemSettings().group(group)));
     }
 
     public static void registerModBlocks(){
-        System.out.println("Registering Mod Block for " + ExampleMod.MODID);
+        System.out.println("Registering Mod Block for " + main.MODID);
 
     }
 
-    public static final Identifier id(String s) {
-        return new Identifier(ExampleMod.MODID, s);
-    }
 
     //generate blocks
     private static Block registerOreBlockinOverworld(String name, Block block, ItemGroup group, int size, int amoutperchanck, int maxX){
@@ -61,12 +58,12 @@ public class Blockinit {
         PlacedFeature thing_PLACED = ore_register_Placed_Feature(thing_CONFIGURED,amoutperchanck,maxX);
 
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
-                new Identifier(ExampleMod.MODID, name), thing_CONFIGURED);
-        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(ExampleMod.MODID, name),
+                new Identifier(main.MODID, name), thing_CONFIGURED);
+        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(main.MODID, name),
                 thing_PLACED);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY,
-                        new Identifier(ExampleMod.MODID, name)));
+                        new Identifier(main.MODID, name)));
         return registerBlock(name,block,group);
     }
 

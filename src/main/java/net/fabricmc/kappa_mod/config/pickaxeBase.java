@@ -11,7 +11,7 @@ import net.minecraft.world.World;
 import java.util.HashMap;
 import java.util.Map;
 
-import static net.fabricmc.kappa_mod.ExampleMod.ITEM_GROUP;
+import static net.fabricmc.kappa_mod.main.ITEM_GROUP;
 
 public class pickaxeBase extends PickaxeItem {
 
