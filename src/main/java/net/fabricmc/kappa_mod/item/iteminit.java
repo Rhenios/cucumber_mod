@@ -45,10 +45,10 @@ public class iteminit {
     public static final Item cucumberarmer_boots = registerItem("cucumberarmer_boots", new armorbase(hardcucumberMaterial, EquipmentSlot.FEET, new Item.Settings().group(ITEM_GROUP)));
 
     //food
-    public static final Item lard = registerItem("lard", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.0F).build()).group(ITEM_GROUP)));
-    public static final Item mayo = registerItem("mayo", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(2.0F).build()).group(ITEM_GROUP)));
+    public static final Item lard = registerItem("lard", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.0F).snack().build()).group(ITEM_GROUP)));
+    public static final Item mayo = registerItem("mayo", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(2.0F).snack().build()).group(ITEM_GROUP)));
     public static final Item potatosalada = registerItem("potatosalada", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(16).saturationModifier(16.0F).build()).group(ITEM_GROUP)));
-    public static final Item cucumber = registerItem("cucumber", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(2.0F).build()).group(ITEM_GROUP)));
+    public static final Item cucumber = registerItem("cucumber", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(2.0F).snack().build()).group(ITEM_GROUP)));
 
     //tool
     public static final Item hardcucumberpickaxe = registerItem("hardcucumberpickaxe", new pickaxeBase(new hardcucumbertool()));
