@@ -15,7 +15,6 @@ import static net.fabricmc.kappa_mod.main.ITEM_GROUP;
 public class iteminit {
 
     //item
-    public static final Item cucumber = registerItem("cucumber", new Item(new FabricItemSettings().group(ITEM_GROUP)));
     public static final Item cucumber_fly_ring = registerItem("cucumber_fly_ring", new flyringItem(new FabricItemSettings().group(ITEM_GROUP)));
     public static final Item cucumberalloy = registerItem("cucumberalloy", new Item(new FabricItemSettings().group(ITEM_GROUP)));
     public static final Item cucumberalloyingot = registerItem("cucumberalloyingot", new Item(new FabricItemSettings().group(ITEM_GROUP)));
@@ -47,8 +46,9 @@ public class iteminit {
 
     //food
     public static final Item lard = registerItem("lard", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.0F).build()).group(ITEM_GROUP)));
-    public static final Item mayo = registerItem("mayo", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.0F).build()).group(ITEM_GROUP)));
+    public static final Item mayo = registerItem("mayo", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(2.0F).build()).group(ITEM_GROUP)));
     public static final Item potatosalada = registerItem("potatosalada", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(16).saturationModifier(16.0F).build()).group(ITEM_GROUP)));
+    public static final Item cucumber = registerItem("cucumber", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(2.0F).build()).group(ITEM_GROUP)));
 
     //tool
     public static final Item hardcucumberpickaxe = registerItem("hardcucumberpickaxe", new pickaxeBase(new hardcucumbertool()));
