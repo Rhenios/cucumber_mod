@@ -28,6 +28,6 @@ public class axebase extends AxeItem {
         }
     }
     public axebase(ToolMaterial material) {
-        super(material, 0, -2.0F, new Settings().group(ITEM_GROUP));
+        super(material, 0, -2.0F, new Settings().group(ITEM_GROUP).maxCount(1));
     }
 }

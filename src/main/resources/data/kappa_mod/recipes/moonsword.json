@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "kappa_mod:hardcucumbersword"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "kappa_mod:hardcucumberpickaxe"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:moonsword",
+    "count": 1
+  }
+}

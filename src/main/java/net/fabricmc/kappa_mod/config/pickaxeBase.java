@@ -29,6 +29,6 @@ public class pickaxeBase extends PickaxeItem {
         }
     }
     public pickaxeBase(ToolMaterial material) {
-        super(material, -1, -2.5F, new Item.Settings().group(ITEM_GROUP));
+        super(material, -1, -2.5F, new Item.Settings().group(ITEM_GROUP).maxCount(1));
     }
 }

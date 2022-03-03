@@ -15,7 +15,7 @@ import static net.fabricmc.kappa_mod.main.ITEM_GROUP;
 public class iteminit {
 
     //item
-    public static final Item cucumber_fly_ring = registerItem("cucumber_fly_ring", new flyringItem(new FabricItemSettings().group(ITEM_GROUP)));
+    public static final Item cucumber_fly_ring = registerItem("cucumber_fly_ring", new flyringItem(new FabricItemSettings().group(ITEM_GROUP).maxCount(1)));
     public static final Item cucumberalloy = registerItem("cucumberalloy", new Item(new FabricItemSettings().group(ITEM_GROUP)));
     public static final Item cucumberalloyingot = registerItem("cucumberalloyingot", new Item(new FabricItemSettings().group(ITEM_GROUP)));
     public static final Item cucumberingot = registerItem("cucumberingot", new Item(new FabricItemSettings().group(ITEM_GROUP)));
@@ -49,15 +49,25 @@ public class iteminit {
     public static final Item mayo = registerItem("mayo", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(2.0F).snack().build()).group(ITEM_GROUP)));
     public static final Item potatosalada = registerItem("potatosalada", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(16).saturationModifier(16.0F).build()).group(ITEM_GROUP)));
     public static final Item cucumber = registerItem("cucumber", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(2.0F).snack().build()).group(ITEM_GROUP)));
+    public static final Item kappaebisen = registerItem("kappaebisen", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(10.0F).snack().build()).group(ITEM_GROUP)));
 
     //tool
     public static final Item hardcucumberpickaxe = registerItem("hardcucumberpickaxe", new pickaxeBase(new hardcucumbertool()));
     public static final Item hardcucumberaxe = registerItem("hardcucumberaxe", new axebase(new hardcucumbertool()));
     public static final Item hardcucumbershovel = registerItem("hardcucumbershovel", new shovelBase(new hardcucumbertool()));
+    public static final Item hardcucumbersword = registerItem("hardcucumbersword", new swordbase(new hardcucumbertool()));
+
 
     public static final Item cucumberpickaxe = registerItem("cucumberpickaxe", new pickaxeBase(new cucumbertoolmaterial()));
     public static final Item cucumberaxe = registerItem("cucumberaxe", new axebase(new cucumbertoolmaterial()));
     public static final Item cucumbershovel = registerItem("cucumbershovel", new shovelBase(new cucumbertoolmaterial()));
+    public static final Item cucumbersword = registerItem("cucumbersword", new swordbase(new cucumbertoolmaterial()));
+
+    //special
+    public static final Item moonsword = registerItem("moonsword", new moonswordbase(new hardcucumbertool()));
+    public static final Item plateofkappa = registerItem("plateofkappa", new plateofkappa());
+    public static final Item projectile = registerItem("projectile", new Item(new FabricItemSettings()));
+
 
     private static Item registerItem(String name ,Item item ){
         return Registry.register(Registry.ITEM,new Identifier(main.MODID, name), item);

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "kappa_mod:hardcucumberingot"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:plateofkappa",
+    "count": 1
+  }
+}

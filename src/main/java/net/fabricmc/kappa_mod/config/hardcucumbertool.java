@@ -16,12 +16,12 @@ public class hardcucumbertool implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 3.0F;
+        return 4.0F;
     }
 
     @Override
     public int getMiningLevel() {
-        return 3;
+        return 4;
     }
 
     @Override
