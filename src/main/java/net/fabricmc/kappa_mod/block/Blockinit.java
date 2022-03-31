@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.kappa_mod.config.ModHalfBlock;
 import net.fabricmc.kappa_mod.main;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -35,21 +36,47 @@ public class Blockinit {
     public static final BlockItem cucumberblockitem = Registry.register(Registry.ITEM, new Identifier(main.MODID, "cucumberblock"),
             new BlockItem(cucumberblock, new Item.Settings().group(ITEM_GROUP)));
 
+    //con_block
+    public static final Block cucumber_lightblue_block = registerConBlock("cucumber_lightblue_block");
+    public static final Block cucumber_lightblue_block_1 = registerConBlock("cucumber_lightblue_block_1");
+    public static final Block cucumber_white_block = registerConBlock("cucumber_white_block");
+    public static final Block cucumber_white_block_1 = registerConBlock("cucumber_white_block_1");
+    public static final Block cucumber_green_block = registerConBlock("cucumber_green_block");
+    public static final Block cucumber_green_block_1 = registerConBlock("cucumber_green_block_1");
 
+
+    //con_blocl_state
+    public static Block registerConBlock(String name){
+        return registerBlock(name,new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f)),ITEM_GROUP);
+
+    }
+
+    //block
     public static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name,block,group);
         return Registry.register(Registry.BLOCK,new Identifier(main.MODID, name),block);
     }
 
     public static Item registerBlockItem(String name, Block block, ItemGroup group){
+        return Registry.register(Registry.ITEM,new Identifier(main.MODID, name),new BlockItem(block,new FabricItemSettings().group(group)));
+    }
+
+    //halfblock
+    public static ModHalfBlock registerHalfBlock(String name, ModHalfBlock block, ItemGroup group){
+        registerHalfBlockItem(name,block,group);
+        return Registry.register(Registry.BLOCK,new Identifier(main.MODID, name),block);
+    }
+
+    public static Item registerHalfBlockItem(String name, ModHalfBlock block, ItemGroup group){
         return Registry.register(Registry.ITEM,new Identifier(main.MODID,name),new BlockItem(block,new FabricItemSettings().group(group)));
     }
+
+
 
     public static void registerModBlocks(){
         System.out.println("Registering Mod Block for " + main.MODID);
 
     }
-
 
     //generate blocks
     private static Block registerOreBlockinOverworld(String name, Block block, ItemGroup group, int size, int amoutperchanck, int maxX){

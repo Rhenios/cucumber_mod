@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kappa_mod:cucumber_green_block_1"
+    }
+  ],
+  "result": {
+    "item": "kappa_mod:cucumber_green_block",
+    "count": 1
+  }
+}

@@ -23,6 +23,9 @@ public class iteminit {
     public static final Item hardcucumberingot = registerItem("hardcucumberingot", new Item(new FabricItemSettings().group(ITEM_GROUP)));
     public static final Item hardcucumberraw = registerItem("hardcucumberraw", new Item(new FabricItemSettings().group(ITEM_GROUP)));
 
+    //material
+    public static final Item cucumbermatter = registerItem("cucumbermatter", new Item(new FabricItemSettings().group(ITEM_GROUP)));
+    public static final Item shardofcucumber = registerItem("shardofcucumber", new Item(new FabricItemSettings().group(ITEM_GROUP)));
 
 
     //armor
@@ -57,7 +60,6 @@ public class iteminit {
     public static final Item hardcucumbershovel = registerItem("hardcucumbershovel", new shovelBase(new hardcucumbertool()));
     public static final Item hardcucumbersword = registerItem("hardcucumbersword", new swordbase(new hardcucumbertool()));
 
-
     public static final Item cucumberpickaxe = registerItem("cucumberpickaxe", new pickaxeBase(new cucumbertoolmaterial()));
     public static final Item cucumberaxe = registerItem("cucumberaxe", new axebase(new cucumbertoolmaterial()));
     public static final Item cucumbershovel = registerItem("cucumbershovel", new shovelBase(new cucumbertoolmaterial()));
@@ -72,10 +74,8 @@ public class iteminit {
     private static Item registerItem(String name ,Item item ){
         return Registry.register(Registry.ITEM,new Identifier(main.MODID, name), item);
     }
-
     public static void registerModItems(){
         System.out.println("Registering Mod Items for " + main.MODID);
-
     }
 
 }

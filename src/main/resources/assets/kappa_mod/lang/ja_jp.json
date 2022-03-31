@@ -18,6 +18,9 @@
   "item.kappa_mod.lard": "ラード",
   "item.kappa_mod.potatosalada": "ポテトサラダ",
   "item.kappa_mod.kappaebisen": "かっぱえびせん",
+  "item.kappa_mod.cucumbermatter": "きゅうりマター",
+  "item.kappa_mod.shardofcucumber": "きゅうりの欠片",
+
 
   "item.kappa_mod.cucumberpickaxe": "きゅうりのツルハシ",
   "item.kappa_mod.cucumberaxe": "きゅうりの斧",
@@ -30,8 +33,8 @@
   "item.kappa_mod.moonsword": "月牙鏟",
   "item.kappa_mod.plateofkappa": "かっぱのさら",
 
-  "item.kappa_mod.cucumber_fly_ring": "飛行のきゅうりリング",
 
+  "item.kappa_mod.cucumber_fly_ring": "飛行のきゅうりリング",
 
 
   "item.kappa_mod.cucumberarmer_helmet": "きゅうりのヘルメット",

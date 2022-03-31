@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "kappa_mod:block/cucumber_white_block_1"
+  }
+}

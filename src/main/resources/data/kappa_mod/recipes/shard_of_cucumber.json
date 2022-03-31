@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "kappa_mod:cucumber"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:shardofcucumber",
+    "count": 1
+  }
+}
