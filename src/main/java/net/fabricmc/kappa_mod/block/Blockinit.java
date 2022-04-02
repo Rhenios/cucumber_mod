@@ -4,10 +4,8 @@ import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.kappa_mod.config.ModHalfBlock;
 import net.fabricmc.kappa_mod.main;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -43,35 +41,47 @@ public class Blockinit {
     public static final Block cucumber_white_block_1 = registerConBlock("cucumber_white_block_1");
     public static final Block cucumber_green_block = registerConBlock("cucumber_green_block");
     public static final Block cucumber_green_block_1 = registerConBlock("cucumber_green_block_1");
+    public static final Block cucumber_lightblue_slabblock = registerConSlabBlock("cucumber_lightblue_slabblock");
+    public static final Block cucumber_lightblue_slabblock_1 = registerConSlabBlock("cucumber_lightblue_slabblock_1");
+    public static final Block cucumber_white_slabblock = registerConSlabBlock("cucumber_white_slabblock");
+    public static final Block cucumber_white_slabblock_1 = registerConSlabBlock("cucumber_white_slabblock_1");
+    public static final Block cucumber_green_slabblock = registerConSlabBlock("cucumber_green_slabblock");
+    public static final Block cucumber_green_slabblock_1 = registerConSlabBlock("cucumber_green_slabblock_1");
+    public static final Block cucumber_lightblue_stairblock = registerConstairbBlock(Blockinit.cucumber_lightblue_block.getDefaultState(),"cucumber_lightblue_stairblock");
+    public static final Block cucumber_lightblue_stairblock_1 = registerConstairbBlock(Blockinit.cucumber_lightblue_block_1.getDefaultState(),"cucumber_lightblue_stairblock_1");
+    public static final Block cucumber_white_stairblock = registerConstairbBlock(Blockinit.cucumber_white_block.getDefaultState(),"cucumber_white_stairblock");
+    public static final Block cucumber_white_stairblock_1 = registerConstairbBlock(Blockinit.cucumber_white_block_1.getDefaultState(),"cucumber_white_stairblock_1");
+    public static final Block cucumber_green_stairblock = registerConstairbBlock(Blockinit.cucumber_green_block.getDefaultState(),"cucumber_green_stairblock");
+    public static final Block cucumber_green_stairblock_1 = registerConstairbBlock(Blockinit.cucumber_green_block_1.getDefaultState(),"cucumber_green_stairblock_1");
 
+    public static final Block cucumber_post_block = registerConModBlock("cucumber_post_block");
 
     //con_blocl_state
     public static Block registerConBlock(String name){
         return registerBlock(name,new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f)),ITEM_GROUP);
+    }
 
+    public static Block registerConSlabBlock(String name){
+        return registerBlock(name,new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f)),ITEM_GROUP);
+    }
+
+    public static Block registerConstairbBlock(BlockState baseBlockState,String name){
+        return registerBlock(name,new ModStairsBlock(baseBlockState,FabricBlockSettings.of(Material.METAL).strength(4.0f)),ITEM_GROUP);
+    }
+
+    public static Block registerConModBlock(String name){
+        return registerBlock(name,new ModBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f)),ITEM_GROUP);
     }
 
     //block
     public static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name,block,group);
-        return Registry.register(Registry.BLOCK,new Identifier(main.MODID, name),block);
+        return Registry.register(Registry.BLOCK,new Identifier("kappa_mod", name),block);
     }
 
     public static Item registerBlockItem(String name, Block block, ItemGroup group){
-        return Registry.register(Registry.ITEM,new Identifier(main.MODID, name),new BlockItem(block,new FabricItemSettings().group(group)));
+        return Registry.register(Registry.ITEM,new Identifier("kappa_mod", name),new BlockItem(block,new FabricItemSettings().group(group)));
     }
-
-    //halfblock
-    public static ModHalfBlock registerHalfBlock(String name, ModHalfBlock block, ItemGroup group){
-        registerHalfBlockItem(name,block,group);
-        return Registry.register(Registry.BLOCK,new Identifier(main.MODID, name),block);
-    }
-
-    public static Item registerHalfBlockItem(String name, ModHalfBlock block, ItemGroup group){
-        return Registry.register(Registry.ITEM,new Identifier(main.MODID,name),new BlockItem(block,new FabricItemSettings().group(group)));
-    }
-
-
 
     public static void registerModBlocks(){
         System.out.println("Registering Mod Block for " + main.MODID);

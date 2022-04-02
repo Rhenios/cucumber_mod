@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "kappa_mod:block/cucumber_lightblue_block",
+    "top": "kappa_mod:block/cucumber_lightblue_block",
+    "side": "kappa_mod:block/cucumber_lightblue_block"
+  }
+}

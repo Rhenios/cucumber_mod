@@ -1,0 +1,11 @@
+{
+  "parent": "kappa_mod:block/post",
+
+  "textures": {
+    "bottom": "kappa_mod:block/conblock/upperblock",
+    "top": "kappa_mod:block/conblock/upperblock",
+    "side": "kappa_mod:block/conblock/side_block1",
+    "particle": "kappa_mod:block/conblock/upperblock"
+  }
+
+}

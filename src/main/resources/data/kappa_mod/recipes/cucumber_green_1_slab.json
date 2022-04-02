@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "kappa_mod:cucumber_green_block_1"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:cucumber_green_slabblock_1",
+    "count": 3
+  }
+}

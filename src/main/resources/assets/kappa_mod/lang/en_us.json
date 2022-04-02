@@ -1,9 +1,31 @@
 {
-  "itemGroup.cucumber": "Cucumber mod",
+  "itemGroup.main.cucumber": "Cucumber mod",
 
   "block.kappa_mod.cucumberblock": "Cucumber block",
   "block.kappa_mod.cucumberore": "Cucumber ore",
   "block.kappa_mod.hardcucmberore": "Hardcucmber ore",
+
+
+  "block.kappa_mod.cucumber_lightblue_block": "cucumber lightblue block",
+  "block.kappa_mod.cucumber_lightblue_block_1": "cucumber lightblue block 1",
+  "block.kappa_mod.cucumber_white_block": "cucumber white block",
+  "block.kappa_mod.cucumber_white_block_1": "cucumber white block 1",
+  "block.kappa_mod.cucumber_green_block": "cucumber green block",
+  "block.kappa_mod.cucumber_green_block_1": "cucumber green block 1",
+  "block.kappa_mod.cucumber_lightblue_slabblock": "cucumber lightblue slabblock",
+  "block.kappa_mod.cucumber_lightblue_slabblock_1": "cucumber lightblue slabblock 1",
+  "block.kappa_mod.cucumber_white_slabblock": "cucumber white slabblock",
+  "block.kappa_mod.cucumber_white_slabblock_1": "cucumber white slabblock 1",
+  "block.kappa_mod.cucumber_green_slabblock": "cucumber green slabblock",
+  "block.kappa_mod.cucumber_green_slabblock_1": "cucumber green slabblock 1",
+  "block.kappa_mod.cucumber_lightblue_stairblock": "cucumber lightblue stairblock",
+  "block.kappa_mod.cucumber_lightblue_stairblock_1": "cucumber lightblue stairblock 1",
+  "block.kappa_mod.cucumber_white_stairblock": "cucumber white stairblock",
+  "block.kappa_mod.cucumber_white_stairblock_1": "cucumber white stairblock 1",
+  "block.kappa_mod.cucumber_green_stairblock": "cucumber green stairblock",
+  "block.kappa_mod.cucumber_green_stairblock_1": "cucumber green stairblock 1",
+  "block.kappa_mod.cucumber_post_block": "cucumber post block",
+
 
 
   "item.kappa_mod.cucumberraw": "Cucumber raw",
@@ -25,8 +47,11 @@
   "item.kappa_mod.cucumbershovel": "Cucumber hovel",
   "item.kappa_mod.hardcucumberpickaxe": "Hard cucumber pickaxe",
   "item.kappa_mod.hardcucumberaxe": "Hard cucumber axe",
-
   "item.kappa_mod.hardcucumbershovel": "Hard cucumber shovel",
+  "item.kappa_mod.hardcucumbersword": "hardcucumbersword",
+  "item.kappa_mod.moonsword": "moonsword",
+  "item.kappa_mod.plateofkappa": "kappa plate",
+
 
   "item.kappa_mod.cucumber_fly_ring": "cucumber fly ring",
 

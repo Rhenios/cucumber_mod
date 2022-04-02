@@ -15,7 +15,7 @@ import static net.fabricmc.kappa_mod.item.iteminit.registerModItems;
 public class main implements ModInitializer {
 
 	public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
-			new Identifier("tutorial", "cucumber"),
+			new Identifier("main", "cucumber"),
 			() -> new ItemStack(Blocks.COBBLESTONE));
 	public static final String MODID = "kappa_mod";
 	public static final Logger LOGGER = LoggerFactory.getLogger("kappa_mod");

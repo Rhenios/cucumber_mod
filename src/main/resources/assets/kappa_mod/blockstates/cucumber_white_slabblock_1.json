@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kappa_mod:block/cucumber_white_slabblock_1"
+    },
+    "type=double": {
+      "model": "kappa_mod:block/cucumber_white_block_1"
+    },
+    "type=top": {
+      "model": "kappa_mod:block/cucumber_white_slabblock_1_top"
+    }
+  }
+}

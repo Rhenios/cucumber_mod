@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "kappa_mod:block/cucumber_white_block_1",
+    "top": "kappa_mod:block/cucumber_white_block_1",
+    "side": "kappa_mod:block/cucumber_white_block_1"
+  }
+}

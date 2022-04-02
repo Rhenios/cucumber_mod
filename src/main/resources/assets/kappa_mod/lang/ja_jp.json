@@ -1,9 +1,30 @@
 {
-  "itemGroup.tutorial.cucumber": "きゅうりMOD",
+  "itemGroup.main.cucumber": "きゅうりMOD",
 
   "block.kappa_mod.cucumberblock": "きゅうりブロック",
   "block.kappa_mod.cucumberore": "きゅうり鉱石",
   "block.kappa_mod.hardcucumberore": "硬きゅうり鉱石",
+
+
+  "block.kappa_mod.cucumber_lightblue_block": "水色きゅうりブロック",
+  "block.kappa_mod.cucumber_lightblue_block_1": "水色きゅうりブロック1",
+  "block.kappa_mod.cucumber_white_block": "白色きゅうりブロック",
+  "block.kappa_mod.cucumber_white_block_1": "白色きゅうりブロック1",
+  "block.kappa_mod.cucumber_green_block": "緑色きゅうりブロック",
+  "block.kappa_mod.cucumber_green_block_1": "緑色きゅうりブロック1",
+  "block.kappa_mod.cucumber_lightblue_slabblock": "水色きゅうりハーフブロック",
+  "block.kappa_mod.cucumber_lightblue_slabblock_1": "水色きゅうりハーフブロック1",
+  "block.kappa_mod.cucumber_white_slabblock": "白色きゅうりハーフブロック",
+  "block.kappa_mod.cucumber_white_slabblock_1": "白色きゅうりハーフブロック1",
+  "block.kappa_mod.cucumber_green_slabblock": "緑色きゅうりハーフブロック",
+  "block.kappa_mod.cucumber_green_slabblock_1": "緑色きゅうりハーフブロック1",
+  "block.kappa_mod.cucumber_lightblue_stairblock": "水色きゅうり階段ブロック",
+  "block.kappa_mod.cucumber_lightblue_stairblock_1": "水色きゅうり階段ブロック1",
+  "block.kappa_mod.cucumber_white_stairblock": "白色きゅうり階段ブロック",
+  "block.kappa_mod.cucumber_white_stairblock_1": "白色きゅうり階段ブロック1",
+  "block.kappa_mod.cucumber_green_stairblock": "緑色きゅうり階段ブロック",
+  "block.kappa_mod.cucumber_green_stairblock_1": "緑色きゅうり階段ブロック1",
+  "block.kappa_mod.cucumber_post_block": "きゅうりの柱ブロック",
 
 
   "item.kappa_mod.cucumberraw": "きゅうりの原石",

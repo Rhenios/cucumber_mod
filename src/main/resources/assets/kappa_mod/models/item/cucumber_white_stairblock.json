@@ -1,5 +1,5 @@
 {
-  "parent": "kappa_mod:block/cucumber_white_block",
+  "parent": "kappa_mod:block/cucumber_white_stairblock",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "0  "
+  ],
+  "key": {
+    "0": {
+      "item": "kappa_mod:cucumber_white_block"
+    }
+  },
+  "result": {
+    "item": "kappa_mod:cucumber_post_block",
+    "count": 2
+  }
+}
