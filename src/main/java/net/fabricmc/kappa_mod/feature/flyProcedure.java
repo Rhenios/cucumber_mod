@@ -1,6 +1,7 @@
 package net.fabricmc.kappa_mod.feature;
 
 import net.minecraft.entity.player.PlayerEntity;
+import org.jetbrains.annotations.NotNull;
 
 public class flyProcedure {
     public static void executeProcedure(PlayerEntity user){

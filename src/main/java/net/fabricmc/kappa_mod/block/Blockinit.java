@@ -41,12 +41,14 @@ public class Blockinit {
     public static final Block cucumber_white_block_1 = registerConBlock("cucumber_white_block_1");
     public static final Block cucumber_green_block = registerConBlock("cucumber_green_block");
     public static final Block cucumber_green_block_1 = registerConBlock("cucumber_green_block_1");
+
     public static final Block cucumber_lightblue_slabblock = registerConSlabBlock("cucumber_lightblue_slabblock");
     public static final Block cucumber_lightblue_slabblock_1 = registerConSlabBlock("cucumber_lightblue_slabblock_1");
     public static final Block cucumber_white_slabblock = registerConSlabBlock("cucumber_white_slabblock");
     public static final Block cucumber_white_slabblock_1 = registerConSlabBlock("cucumber_white_slabblock_1");
     public static final Block cucumber_green_slabblock = registerConSlabBlock("cucumber_green_slabblock");
     public static final Block cucumber_green_slabblock_1 = registerConSlabBlock("cucumber_green_slabblock_1");
+
     public static final Block cucumber_lightblue_stairblock = registerConstairbBlock(Blockinit.cucumber_lightblue_block.getDefaultState(),"cucumber_lightblue_stairblock");
     public static final Block cucumber_lightblue_stairblock_1 = registerConstairbBlock(Blockinit.cucumber_lightblue_block_1.getDefaultState(),"cucumber_lightblue_stairblock_1");
     public static final Block cucumber_white_stairblock = registerConstairbBlock(Blockinit.cucumber_white_block.getDefaultState(),"cucumber_white_stairblock");
@@ -54,7 +56,14 @@ public class Blockinit {
     public static final Block cucumber_green_stairblock = registerConstairbBlock(Blockinit.cucumber_green_block.getDefaultState(),"cucumber_green_stairblock");
     public static final Block cucumber_green_stairblock_1 = registerConstairbBlock(Blockinit.cucumber_green_block_1.getDefaultState(),"cucumber_green_stairblock_1");
 
+    public static final Block cucumber_lightblue_modblock = registerConModBlock("cucumber_lightblue_modblock");
+    public static final Block cucumber_lightblue_modblock_1 = registerConModBlock("cucumber_lightblue_modblock_1");
+    public static final Block cucumber_white_modblock = registerConModBlock("cucumber_white_modblock");
+    public static final Block cucumber_white_modblock_1 = registerConModBlock("cucumber_white_modblock_1");
+    public static final Block cucumber_green_modblock = registerConModBlock("cucumber_green_modblock");
+    public static final Block cucumber_green_modblock_1 = registerConModBlock("cucumber_green_modblock_1");
     public static final Block cucumber_post_block = registerConModBlock("cucumber_post_block");
+
 
     //con_blocl_state
     public static Block registerConBlock(String name){
