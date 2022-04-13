@@ -12,6 +12,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 import net.minecraft.util.Hand;
+import net.fabricmc.kappa_mod.feature.flyProcedure;
 
 public class flyringItem extends Item{
     public flyringItem(Settings settings) {
@@ -22,14 +23,9 @@ public class flyringItem extends Item{
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
 
         ItemStack item = user.getStackInHand(hand);
-        if (!user.getAbilities().allowFlying){
-            user.getAbilities().allowFlying = true;
-            user.sendAbilitiesUpdate();
-        }else{
-            user.getAbilities().allowFlying = false;
-            user.getAbilities().flying = false;
-            user.sendAbilitiesUpdate();
-        }
+
+        flyProcedure.executeProcedure(user);
+
         return TypedActionResult.success(item);
     }
 

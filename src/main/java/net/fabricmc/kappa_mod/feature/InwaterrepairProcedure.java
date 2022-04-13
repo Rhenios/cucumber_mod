@@ -12,18 +12,6 @@ import java.util.Map;
 
 public class InwaterrepairProcedure {
     public static void executeProcedure(Map<String, Object> dependencies) {
-        if (dependencies.get("world") == null) {
-            System.err.println("Failed to load dependency world for procedure Inwaterrepair!");
-            return;
-        }
-        if (dependencies.get("entity") == null) {
-            System.err.println("Failed to load dependency entity for procedure Inwaterrepair!");
-            return;
-        }
-        if (dependencies.get("itemstack") == null) {
-            System.err.println("Failed to load dependency itemstack for procedure Inwaterrepair!");
-            return;
-        }
         World world = (World) dependencies.get("world");
         Entity entity = (Entity) dependencies.get("entity");
         ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
