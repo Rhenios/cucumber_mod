@@ -25,7 +25,7 @@ public class Blockinit {
 
     //block
     public static final Block cucumberore = registerOreBlockinOverworld("cucumberore",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),ITEM_GROUP,8,15,64);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f).requiresTool()),ITEM_GROUP,8,15,64);
     public static final Block hardcucumberore = registerOreBlockinOverworld("hardcucumberore",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),ITEM_GROUP,8,15,32);
 

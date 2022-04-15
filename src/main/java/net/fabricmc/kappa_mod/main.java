@@ -3,6 +3,7 @@ package net.fabricmc.kappa_mod;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.kappa_mod.block.Blockinit;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.fabricmc.kappa_mod.item.OtherItemoinit;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -28,6 +29,7 @@ public class main implements ModInitializer {
 		registerModItems();
 		//block and ore
 		Blockinit.registerModBlocks();
+		OtherItemoinit.registerModItems();
 
 	}
 }

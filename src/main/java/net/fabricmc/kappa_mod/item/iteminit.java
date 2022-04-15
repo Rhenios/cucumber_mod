@@ -65,6 +65,9 @@ public class iteminit {
     public static final Item cucumbershovel = registerItem("cucumbershovel", new shovelBase(new cucumbertoolmaterial()));
     public static final Item cucumbersword = registerItem("cucumbersword", new swordbase(new cucumbertoolmaterial()));
 
+    //magic_tool
+    public static final Item wand = registerItem("wand",new wand(new basic_toolMaterial()));
+
     //special
     public static final Item moonsword = registerItem("moonsword", new moonswordbase(new hardcucumbertool()));
     public static final Item plateofkappa = registerItem("plateofkappa", new plateofkappa());

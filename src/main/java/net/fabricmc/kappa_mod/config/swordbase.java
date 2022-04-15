@@ -21,9 +21,6 @@ public class swordbase extends SwordItem {
 
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
-        int x = (int) entity.getPos().getX();
-        int y = (int) entity.getPos().getY();
-        int z = (int) entity.getPos().getZ();
         {
             Map<String, Object> $_dependencies = new HashMap<>();
             $_dependencies.put("world", world);
